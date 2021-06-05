@@ -11,6 +11,7 @@ TYPE_MIDDLE = 2
 TYPE_BIG = 3
 
 
+
 class Bullet(pygame.sprite.Sprite):
     def __init__(self, bullet_img, init_pos):
         pygame.sprite.Sprite.__init__(self)
